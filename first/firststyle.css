@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	width: 100%;
+	min-height: 100%;
+	
+}
+.container {
+	margin: 0 auto;
+	width: 80%;
+}
+.box-wrapper {
+	width: 100%;	
+}
+.box {
+	border: 1px solid red;
+	width: 31%;
+	height: 100px;
+	display: inline-block;
+}
+.one {
+	background-color: red;
+	
+}
+.two {
+	background-color: blue;
+	margin: 0 20px;
+}
+.three {
+	background-color: grey;
+}
+p {
+	padding: 20px
+}
+.midsection {
+	height: 250px;
+	width: 100%;
+}
+.midleft {
+	height: 100%;
+	width: 30%;
+	background-color: red;
+	display: inline-block;
+	float: left;
+}
+.midright {
+	height: 100%;
+	width: 70%;
+	background-color: blue;
+	display: inline-block;
+}
+.bottomsection {
+	height: 100px;
+	width: 100%;
+	margin-top: 20px;
+}
+.bottom1 {
+	height: 100%;
+	width: 70%;
+	background-color: blue;
+	float: left;
+	display: inline-block;
+}
+.bottom2 {
+	height: 100%;
+	width: 5%;
+	background-color: red;
+	float: left;
+	display: inline-block;
+}
+.bottom3 {
+	height: 100%;
+	width: 20%;
+	background-color: darkgrey;
+	float: left;
+	display: inline-block;
+}
+.bottom4 {
+	height: 100%;
+	width: 5%;
+	background-color: red;
+	float: left;
+	display: inline-block;
+}
